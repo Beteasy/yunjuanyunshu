@@ -1,0 +1,25 @@
+/* pages/article/article.wxss */
+/* @import "../articleTemplate/articleTemplate.wxss";
+ */
+/* @import "../newArticleTemp/newArticleTemp.wxss"; */
+
+.functionModel{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center
+}
+
+.function{
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}
+
+.functionImg{
+  width: 80rpx;
+  height: 80rpx;
+}

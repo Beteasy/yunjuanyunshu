@@ -1,0 +1,88 @@
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column
+}
+
+.showContainer{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.pictureModel{
+  /* width: 95%; */
+  /* height: ; */
+  margin-bottom: 20rpx;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%
+ }
+
+ .textModel{
+   height: 10%;
+   text-align: center;
+   margin-bottom: 20rpx;
+   font-size: 46rpx;
+ }
+
+ .correctRate{
+   height: 5%;
+   text-align: center;
+   font-size: 24rxp;
+   margin-bottom: 20rpx;
+   /* padding: 0rpx; */
+ }
+
+.answerModel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+
+
+.answer1{
+width: 25%;
+}
+
+
+.answer2{
+width: 25%;
+
+}
+
+.answer3{
+width: 25%;
+}
+/* .answer1{
+  height: 60rpx;
+  border-style: solid;
+  border-color: gray;
+  align-items: center;
+  justify-content: space-around
+} */
+
+.buttonContainer{
+  position: absolute;
+  /* display: flex; */
+  width: 100%;
+  bottom: 100rpx;
+  justify-content: center
+}
+
+.recognizeButton{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around
+}
+
+.cameraImg{
+  width: 60rpx;
+  height: 60rpx;
+}

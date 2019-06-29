@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cloudReconition/cloudReconition",
+    "pages/article/article",
+    "pages/topic/topic"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云卷云舒",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#2aa515",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectedHome.png"
+      },
+      
+      {
+        "pagePath": "pages/cloudReconition/cloudReconition",
+        "text": "拍照识云",
+        "iconPath": "images/cm.png",
+        "selectedIconPath": "images/scm.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/selectedUser.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

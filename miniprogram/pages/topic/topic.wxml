@@ -1,0 +1,15 @@
+<!--pages/topic/topic.wxml-->
+<import src="topicTemplate/topicTemplate.wxml" />
+
+<view class='topicContainer'>
+  <!-- <view wx:for="{{topicData}}" wx:for-item="item" wx:key="key">
+      <view bindtap='navigateToDetail' data-topicId='{{item._id}}'> -->
+        <template is="topicTemplate" data="{{...item}}" />
+        <template is="topicTemplate" data="{{...item}}" />
+        <template is="topicTemplate" data="{{...item}}" />
+        <template is="topicTemplate" data="{{...item}}" />
+        <template is="topicTemplate" data="{{...item}}" />
+        <template is="topicTemplate" data="{{...item}}" />
+      <!-- </view>
+    </view> -->
+</view>

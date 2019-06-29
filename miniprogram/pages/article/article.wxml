@@ -1,0 +1,35 @@
+<!--pages/article/article.wxml-->
+<!-- <import src='../articleTemplate/articleTemplate.wxml' /> -->
+<import src='newArticleTemp/newArticleTemp.wxml' />
+<view class='articleContainer'>
+
+  <!--functionModel  -->
+  <view class='functionModel'>
+    <view class='function'>
+      <image class='functionImg' src='../../images/wenxue.png'></image>
+      <text class='functionText'>文学</text>
+    </view>
+
+    <view class='function'>
+      <image class='functionImg' src='../../images/kepu.png'></image>
+      <text class='functionText'>科普</text>
+    </view>
+
+    <view class='function'>
+      <image class='functionImg' src='../../images/sheying.png'></image>
+      <text class='functionText'>摄影比赛</text>
+    </view>
+  </view>
+  <!-- articleModel -->
+  <view class='articleModel'>
+    <!-- <view wx:for="{{articleData}}" wx:for-item="item" wx:key="key">
+      <view bindtap='navigateToDetail' data-newsId='{{item._id}}'>
+        <template is="articleTemplate" data="{{...item}}" />
+      </view>
+    </view> -->
+    <template is="newArticleTemp" />
+    <template is="newArticleTemp" />
+    <template is="newArticleTemp" />
+    <template is="newArticleTemp" />
+  </view>
+</view>

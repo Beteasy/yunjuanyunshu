@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+@import "../articleTemplate/articleTemplate.wxss";
+
+.indexContainer{
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
+.functionModel{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center
+}
+
+.function{
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}
+
+.functionImg{
+  width: 80rpx;
+  height: 80rpx;
+}

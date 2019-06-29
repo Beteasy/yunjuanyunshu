@@ -1,0 +1,7 @@
+<template name="functionTemplate">
+  <view class='functionItem'>
+    <view class='functionImg'>
+    </view>
+    <text class='functionText'></text>
+  </view>
+</template>

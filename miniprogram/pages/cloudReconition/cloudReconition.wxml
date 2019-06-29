@@ -1,0 +1,30 @@
+<view class='container'>
+
+  <view class='showContainer'>
+    <view class='pictureModel'>
+      <image src='../../images/cloudShow.jpg'></image>
+    </view>
+
+    <view class='textModel'>
+      <text class='textContent'>一日一云~这是什么云</text>
+    </view>
+
+    <view class='correctRate'>
+      <text class='correctContent'>今天有66%的人猜对</text>
+    </view>
+
+    <view class='answerModel'>
+      <button class='answer1 cu-btn bg-gray round'>积云</button>
+      <button class='answer2 cu-btn bg-gray round'>积雨云</button>
+      <button class='answer3 cu-btn bg-gray round'>层积云</button>
+    </view>
+
+  </view>
+
+  <view class="buttonContainer">
+    <button class='recognizeButton cu-gtn bg-blue round shadow' bindtap='recognizeButtonEvent'>
+      <image class='cameraImg' src='../../images/camera.png'></image>
+      拍照识云
+    </button>
+  </view>
+</view>
